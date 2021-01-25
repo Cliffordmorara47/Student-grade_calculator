@@ -1,0 +1,35 @@
+body{
+    background-color: darkcyan;
+    padding: 2.52%
+}
+.col-sm-8{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8%;
+}
+.percent{
+    padding-top: 45px;
+}
+#percent{
+    padding-bottom: 40px;
+}
+.white{
+    background-color: darkcyan;
+}
+.black{
+    background-color: black;
+    color: whitesmoke;
+}
+h1{
+    color: whitesmoke;
+    padding-bottom: 30px;
+}
+#content{
+    padding: 3%;
+}
+.two{
+    background-color: rgb(248, 242, 242);
+}
+#pass{
+    color: black;
+}

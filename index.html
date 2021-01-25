@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+         <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+
+<div id="content">
+    <div class="container">
+        <h1>Student Grade Calculator</h1>
+      <div class="row">
+        <div class="col-sm-4 black">
+          <h2 class="percent">Your Points are: </h2>
+          <h3 id="percent"></h3>
+          <h2>Your Mean Grade is:</h2>
+          <h3 id="grade"></h3>
+        </div>
+        <div class="col-sm-8 white">
+                <h1>Enter Your Marks</h1>
+                <div class="form-group">
+                    <input type="text" id="maths" class="form-control" placeholder="Maths">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="physics" class="form-control" placeholder="Physics">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="chemistry" class="form-control" placeholder="Chemistry">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="english" class="form-control" placeholder="English">
+                </div>
+                <button class="btn-primary" onclick="getMarks()">Submit</button>
+        </div>
+      </div>
+      <div class="row two">
+          <h1 id="pass"></h1>
+      </div>
+    </div>
+</div>
+
+
+    
+<script src="../js/script.js"></script>
+</body>
+</html>
